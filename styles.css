@@ -1,0 +1,144 @@
+html {
+    height: 100%;
+}
+
+
+
+
+body {
+    background-color:transparent;
+   background-image: url("beautiful.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header { 
+    background-color: rgba(0, 255, 179, 0.411);
+    height: 100px;
+    
+    
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.295);
+     height: 28px;
+    text-align: center;
+     }
+main {
+    background-color: transparent;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+  
+ 
+}
+footer {
+    background-color: rgba(172, 255, 47, 0.541);
+    height: 16px;   
+    width: 300px;
+}
+
+
+ 
+h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+main p {
+    background-color: lightsalmon ;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: block;
+   
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*text-decoration: none;*/
+}
+
+nav a {
+     text-decoration: none;
+     font-size: 16px;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+footer p{
+  
+     color: red;
+}
+.maps {
+
+    text-align: center;
+}
+
+.contact-me {
+     background-image: url("buddha1.jpg");
+     background-position: center;
+     background-size: 1024px;
+    color: rgb(225, 102, 65);
+    background-color: yellow;
+     font-size: 20px;
+}
+ 
+  .pdll {
+    float: left;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  
+  header h1 {
+    position: relative;
+    top: 18px;
+    left: 200px;
+  }  
+      
+  .pdl {
+     float: right;
+     width: 100px;
+     height: 100px;
+     margin-top: 0px;
+     margin-right: 0px;
+       }
+    h1 {
+       color: gold;
+       display: inline;
+    }
+    h3 {
+        color: rgb(150, 17, 238);
+    }
+    .meditationheader{
+        height: 50px;
+        background-color: darkkhaki;   
+     }
+     
+     .meditationnav{
+         background-color: rgba(255, 166, 0, 0.24);
+         width: 500px;
+     }
+     .aboutheader {
+         text-align: center;
+         height: auto;
+         margin-left: 500px;
+         margin-right: 500px;
+             }
+      .aboutnav {
+          text-align: initial;
+          width: 170px;
+      }  
+  

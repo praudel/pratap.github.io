@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body class="contact-me">
+    <form method="post" action="mailto:praudel@gmail.com" enctype="text/plain">
+    <label>First Name:</label>
+    <input type="text" name="First Name" size="25" maxlength="35" required><br>
+    <label>Age:</label>
+   <input type="number" name="age" min="0" max="120"><br>
+   <label>Civil Status</label>
+   <select name="Civil Status" size="1">
+   <option value="Unmarried" selected>Single</option><option value="Married">Married</option><option value="Divorced">Divorced</option>
+   </select><br>
+   <label>Language preference</label>
+    <input type="checkbox" name="French"><label>French</label><br>
+    <input type="checkbox" name="Dutch"> <label>Dutch</label><br>
+    <input type="checkbox" name="English"><label>English</label><br>
+    <input type="checkbox" name="German"><label>German</label><br>
+    <label>Sex:</label><br>
+    <input type="radio" name="sex" value="M" checked><label>Male</label><br>
+    <input type="radio" name="sex" value="F" checked><label>Female</label><br>
+    <input type="radio" name="sex" value="O" checked><label>Other</label><br>
+    <label>Choose your Favourite Colour:</label> 
+    <input type="color" name="favourite colour"><br>
+    <label>E-mailaddress:</label>
+    <input type="email" name="e-mailadress" maxlength="50"><br>
+    <label>Password:</label>
+    <input type="password" name="password" maxlength="20" size="20" minlength="8"><br>
+    <label><strong>Feedback</strong><small>max. 120 letters</small></label><br>
+    <textarea name="Feedback" rows="5" maxlength="120" cols="50" placeholder="Write down your feedback"></textarea><br>
+    <input type="submit" value="SEND">
+    <input type="reset" value="Cancel">
+</form><br><br>
+
+<footer style="height: 30px; width: 150px; background-color: darkred;">
+    <a href="index.html">Back to Home</a>
+</footer>
+</body>
+</html>
